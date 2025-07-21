@@ -9,15 +9,17 @@
     display: flex;
     justify-content: space-around;
     background-color: #e6e3e3ff;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .nav-links-container{
     display: flex;
+    align-items: center;
 }
 .nav-links{
     text-decoration: none;
     margin: 10px;
-    color: #8c8888ff;
+    color: #333333ff;
+    font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 19px;
 }
@@ -35,7 +37,7 @@
     padding: 10px 25px;
 }
 .button-1{
-    background-color: #4fcdffff;
+    background-color: #00b7ffff;
     color: #ffff;
     padding: 10px 35px;
     border: none;
@@ -54,12 +56,13 @@
 #our-story-section{
     padding-top: 20px;
 }
-.our-story-contsiner{
+.our-story-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .seperator-img{
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -107,7 +110,7 @@
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
-.client{
+.client-img{
     border-radius: 100px;
     width: 80px;
     height: 75px;
@@ -136,7 +139,6 @@
 .contact-nav-bar{
     display: flex;
     justify-content: space-around;
-    opacity: 0.8;
     background-color: #43484aff;
     padding: 10px 0px;
     margin: 0px 220px;
@@ -149,6 +151,7 @@
     font-size: 16px;
 }
 .contact-info{
+    padding-top: 40px;
     display: flex;
     padding-bottom: 50px;
 }
